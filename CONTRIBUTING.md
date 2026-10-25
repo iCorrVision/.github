@@ -8,11 +8,11 @@ Given the development scope of the iCorrVision v2 project as a whole, there is s
 
 ### But what if I'm new/don't know how?
 
-There are a lot of resources out there that can help you get a grasp on how things are done in open source projects. GitHub itself has helpful resources explaining the process of [forking and opening a PR](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project). While we don't offer an extensive code of conduct right now, if you need some pointers on what the general code of conduct is when contributing to open source [there are resources for that too.](https://opensource.guide/how-to-contribute/)
+There are a lot of resources out there that can help you get a grasp on how things are done in open source projects. GitHub itself has helpful resources explaining the process of [forking and opening a PR](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project). Everyone taking part in the project is expected to follow our [Code of Conduct](https://github.com/iCorrVision/.github/blob/main/CODE_OF_CONDUCT.md), and if you need some pointers on how contributing to open source generally works, [there are resources for that too.](https://opensource.guide/how-to-contribute/)
 
 ## Who maintains this?
 
-As of right now the only code maintainer of this project is @DanTheRobot (that's me!), but eventually more people from DEMI will be added to the project to help out and expand the team. This is also a learning experience on my part when it comes to maintaining and contributing to open source. I will try to review PRs and Issues as they come, but I'm moving on to other projects too, and if those PRs start coming in fast before the team expands you should expect things to slow down a bit. For a general view of how things stand, maintainers are the `@iCorrVision/maintainers` team, and each repository's `.github/CODEOWNERS` file lists which parts need their review.
+As of right now the code maintainers of this project are @DanTheRobot (that's me!) and @josexavier3, and eventually more people from DEMI will be added to the project to help out and expand the team. This is also a learning experience on my part when it comes to maintaining and contributing to open source. I will try to review PRs and Issues as they come, but I'm moving on to other projects too, and if those PRs start coming in fast before the team expands you should expect things to slow down a bit. For a general view of how things stand, maintainers are the `@iCorrVision/maintainers` team, and each repository's `.github/CODEOWNERS` file lists which parts need their review.
 
 ## What we are looking for
 
@@ -62,7 +62,7 @@ Currently the project uses Google-style docstrings and black for the styling (pl
 
 ## Testing
 
-Another thing on the TODO list is to write some tests in general. For now: run the example notebook and say in the PR what you ran (if you are willing to spend your time contributing to such a niche project I will trust you to follow this).
+Another thing on the TODO list is to write some tests in general. For now: run the example or validation notebook of the area you changed (each repository's README lists them) and say in the PR what you ran (if you are willing to spend your time contributing to such a niche project I will trust you to follow this).
 
 I'll say it again however, a test suite is planned, *soonTM.*
 
@@ -77,7 +77,7 @@ Pull requests should follow the same structure as found in iCorrVision/iCorrVisi
 
 Finally, to try and keep some small accountability for the code added, we kindly ask you to tick the checkbox confirming you understand the changes made and submit them under the stated license of the repo.
 
-This all sounds a bit scarier than it needs to be, so don't worry too much about it :)
+The pull request template already has these sections and the checkbox. This all sounds a bit scarier than it needs to be, so don't worry too much about it :)
 
 ## Review
 
